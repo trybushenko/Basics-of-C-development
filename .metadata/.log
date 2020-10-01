@@ -1,0 +1,37 @@
+!SESSION 2020-10-01 23:14:19.626 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_UA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-01 23:14:55.189
+!MESSAGE An internal error occurred during: "Load QML Analyzer".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "javax.script.ScriptEngine.getContext()" because "this.engine" is null
+	at org.eclipse.cdt.internal.qt.core.QMLAnalyzer.load(QMLAnalyzer.java:117)
+	at org.eclipse.cdt.internal.qt.core.QMLAnalyzer.loadDep(QMLAnalyzer.java:125)
+	at org.eclipse.cdt.internal.qt.core.QMLAnalyzer.load(QMLAnalyzer.java:51)
+	at org.eclipse.cdt.internal.qt.core.Activator$1.run(Activator.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-10-01 23:15:00.102
+!MESSAGE Indexed 'sixthWeek' (1 sources, 185 headers) in 3 sec: 14 222 declarations; 22 624 references; 0 unresolved inclusions; 0 syntax errors; 13 unresolved names (0,035 %)
+!SESSION 2020-10-01 23:20:34.225 -----------------------------------------------
+eclipse.buildId=4.17.0.I20200902-1800
+java.version=15
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=ru_UA
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -data file:/home/artemie/eclipse-workspace/ -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.core.jobs 4 2 2020-10-01 23:20:40.644
+!MESSAGE An internal error occurred during: "Load QML Analyzer".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "javax.script.ScriptEngine.getContext()" because "this.engine" is null
+	at org.eclipse.cdt.internal.qt.core.QMLAnalyzer.load(QMLAnalyzer.java:117)
+	at org.eclipse.cdt.internal.qt.core.QMLAnalyzer.loadDep(QMLAnalyzer.java:125)
+	at org.eclipse.cdt.internal.qt.core.QMLAnalyzer.load(QMLAnalyzer.java:51)
+	at org.eclipse.cdt.internal.qt.core.Activator$1.run(Activator.java:72)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)

@@ -1,0 +1,36 @@
+23:15:02 **** Build of configuration Debug for project sixthWeek ****
+make all 
+Building file: ../src/sixthWeek.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/sixthWeek.d" -MT"src/sixthWeek.o" -o "src/sixthWeek.o" "../src/sixthWeek.cpp"
+Finished building: ../src/sixthWeek.cpp
+ 
+Building target: sixthWeek
+Invoking: GCC C++ Linker
+g++  -o "sixthWeek" ./src/sixthWeek.o   
+Finished building target: sixthWeek
+ 
+23:15:13 **** Incremental Build of configuration Debug for project sixthWeek ****
+make all 
+make: Цель «all» не требует выполнения команд.
+23:25:23 **** Incremental Build of configuration Debug for project sixthWeek ****
+make all 
+Building file: ../src/matrix.cpp
+Invoking: GCC C++ Compiler
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/matrix.d" -MT"src/matrix.o" -o "src/matrix.o" "../src/matrix.cpp"
+Finished building: ../src/matrix.cpp
+ 
+Building target: sixthWeek
+Invoking: GCC C++ Linker
+g++  -o "sixthWeek" ./src/matrix.o   
+Finished building target: sixthWeek
+ 
+23:25:31 **** Incremental Build of configuration Debug for project sixthWeek ****
+make all 
+make: Цель «all» не требует выполнения команд.
+23:25:33 **** Incremental Build of configuration Debug for project sixthWeek ****
+make all 
+make: Цель «all» не требует выполнения команд.
+23:25:37 **** Incremental Build of configuration Debug for project sixthWeek ****
+make all 
+make: Цель «all» не требует выполнения команд.
