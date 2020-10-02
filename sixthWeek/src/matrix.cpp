@@ -186,7 +186,7 @@ bool operator==(const Matrix& lhs, const Matrix& rhs) {
 	}
 	return true;
 }
-
+/*
 int main() {
 	Matrix one;
 	Matrix two;
@@ -195,6 +195,6 @@ int main() {
 	cout << (one + two) << endl;
 	return 0;
 }
-
+*/
 
 
