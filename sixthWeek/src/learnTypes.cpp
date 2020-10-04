@@ -12,7 +12,7 @@ using namespace std;
 task: 	learning task for learning types of integers
 */
 
-/*
+
 int main(int argc, const char** argv) {
 	cout << "size_t : " <<numeric_limits<size_t>::max()
 		 << "\nunsigned int : " << numeric_limits<unsigned int>::max()
@@ -24,6 +24,7 @@ int main(int argc, const char** argv) {
 		 << "\nmaximal value int32_t : " << numeric_limits<int32_t> :: max()
 		 << "\nminimal value int64_t : " << numeric_limits<int64_t> :: min()
 		 << "\nmaximal value int64_t : " << numeric_limits<int64_t> :: max() << endl;
+	/*
 	* int x = 2'000'000'000'000;
 	*unsigned int y = x;
 	*cout << y << endl; // outputs 2'000'000'000'000 instead of number less than 0 cout << (-1 < 1//u) << endl; - error
@@ -88,4 +89,4 @@ int main(int argc, const char** argv) {
 	cout << q << endl;
 	return 0;
 }
-*/
+
