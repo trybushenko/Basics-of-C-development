@@ -4,14 +4,17 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
+../src/avgTempSecond.cpp \
 ../src/learnTypes.cpp \
 ../src/matrix.cpp 
 
 OBJS += \
+./src/avgTempSecond.o \
 ./src/learnTypes.o \
 ./src/matrix.o 
 
 CPP_DEPS += \
+./src/avgTempSecond.d \
 ./src/learnTypes.d \
 ./src/matrix.d 
 
