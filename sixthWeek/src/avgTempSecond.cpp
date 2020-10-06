@@ -27,6 +27,7 @@ task: 	Решите задачу «Средняя температура» в д
 		Затем K целых чисел — номера этих дней.
 */
 
+/*
 int main(int argc, const char** argv) {
 	int n;
     cin >> n;
@@ -46,3 +47,4 @@ int main(int argc, const char** argv) {
         if (v[i] > average_temperature) cout << i << " ";
     }
 }
+*/

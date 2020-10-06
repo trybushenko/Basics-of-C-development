@@ -6,16 +6,19 @@
 CPP_SRCS += \
 ../src/avgTempSecond.cpp \
 ../src/learnTypes.cpp \
+../src/massOfBlocks.cpp \
 ../src/matrix.cpp 
 
 OBJS += \
 ./src/avgTempSecond.o \
 ./src/learnTypes.o \
+./src/massOfBlocks.o \
 ./src/matrix.o 
 
 CPP_DEPS += \
 ./src/avgTempSecond.d \
 ./src/learnTypes.d \
+./src/massOfBlocks.d \
 ./src/matrix.d 
 
 
