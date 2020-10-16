@@ -36,6 +36,7 @@ task: 	Вычислите суммарную массу имеющих форм�
 				840084
 */
 
+/*
 int main(int argc, const char** argv){
 	int w, h, d, n, density;
 	uint64_t mass = 0;
@@ -48,3 +49,4 @@ int main(int argc, const char** argv){
 	cout << mass << endl;
 	return 0;
 }
+*/
