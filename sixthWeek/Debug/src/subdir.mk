@@ -9,7 +9,8 @@ CPP_SRCS += \
 ../src/comparisonOperator.cpp \
 ../src/learnTypes.cpp \
 ../src/massOfBlocks.cpp \
-../src/matrix.cpp 
+../src/matrix.cpp \
+../src/tasksTracker.cpp 
 
 OBJS += \
 ./src/avgTempSecond.o \
@@ -17,7 +18,8 @@ OBJS += \
 ./src/comparisonOperator.o \
 ./src/learnTypes.o \
 ./src/massOfBlocks.o \
-./src/matrix.o 
+./src/matrix.o \
+./src/tasksTracker.o 
 
 CPP_DEPS += \
 ./src/avgTempSecond.d \
@@ -25,7 +27,8 @@ CPP_DEPS += \
 ./src/comparisonOperator.d \
 ./src/learnTypes.d \
 ./src/massOfBlocks.d \
-./src/matrix.d 
+./src/matrix.d \
+./src/tasksTracker.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes

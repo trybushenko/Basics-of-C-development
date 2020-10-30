@@ -67,6 +67,7 @@ int FindMaxRepetitionCount(const vector<Region>& regions) {
 	return maximum;
 }
 
+/*
 int main() {
   cout << FindMaxRepetitionCount({
       {
@@ -128,3 +129,4 @@ int main() {
 
   return 0;
 }
+*/
